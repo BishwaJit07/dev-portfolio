@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.Navtitle{
+    font-size: 45px ;
+    font-weight: 800;
+}
+.mainORG{
+    color: #FD6E0A ;
+}
+nav{
+    display: flex;
+   justify-content: space-between; 
+   margin: 50px  200px;
+   align-items: center;
+}
+nav li {
+    list-style: none;
+    margin:50px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+.primary-btn 
+{
+    color: white;
+    padding: 18px 35px ;
+   border: 0px;
+    background: #FD6E0A;
+  
+ 
+
+
+    width: 151.52px;
+    height: 57.49px;
+    left: 1220.65px;
+    top: 48.52px;
+   border-radius: 5px;
+   
+    
+
+}
+
+/* Name */
+
+.intro
+{
+    font-size: 45px;
+    color: #474747;
+    margin: 20px; ;
+}
+
+.name
+{
+    font-size: 70px;
+    font-weight: 700;
+
+}
+.about
+{
+    font-size: 18px;
+    color: #757575;
+    margin: 30px;
+}
+
+/* banner */
+
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.Down 
+{
+    width: 200px;
+    height: 64px; 
+    background-color: #FD6E0A;
+   
+left: 230px;
+top: 589px;
+
+color: #FFFFFF;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+border: 0;
+}
+ /* Background Img */
+.hover {
+    background: #f3e4db;
+    background-image: url(/images/header_bg.png), url(/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+    /* Main */
+  main{
+    max-width: 1140px ;
+    
+    margin: auto;
+    
+  }
+   
+/* About sec */
+
+
+ .about{
+    margin-top: 15px;
+    
+  }
+
+  .detailed{
+    background: #FFF8F3;
+     border-radius: 10px ;
+     padding: 131px 156px;
+     text-align: center;
+     margin-bottom: 30px;
+  }
+
+.sec-title{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+  .sec-des {
+    color: #757575;
+    margin-bottom: 20px;
+  }
+/* Info */
+  .about-info-container{  display:flex ;
+   justify-content: space-around;
+    }
+
+
+  .info-title{
+    color: #757575;
+    font-weight: 400;
+font-size: 20px;
+  }
+
+  .info-description{
+   
+    font-weight: 400;
+font-size: 20px;
+color: #1b1b1b;
+  }
